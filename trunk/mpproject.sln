@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mprun", "mprun\mprun.vcproj", "{6D844FEA-7761-46A5-B784-00F7C5984518}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mpstart", "mpstart\mpstart.vcproj", "{75C34F1C-4F17-46A7-88BF-706B5EAD0745}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mpwait", "mpwait\mpwait.vcproj", "{32E50D77-EF06-4400-8BF1-58DAB5ACC1ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D844FEA-7761-46A5-B784-00F7C5984518}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D844FEA-7761-46A5-B784-00F7C5984518}.Debug|Win32.Build.0 = Debug|Win32
+		{6D844FEA-7761-46A5-B784-00F7C5984518}.Release|Win32.ActiveCfg = Release|Win32
+		{6D844FEA-7761-46A5-B784-00F7C5984518}.Release|Win32.Build.0 = Release|Win32
+		{75C34F1C-4F17-46A7-88BF-706B5EAD0745}.Debug|Win32.ActiveCfg = Debug|Win32
+		{75C34F1C-4F17-46A7-88BF-706B5EAD0745}.Debug|Win32.Build.0 = Debug|Win32
+		{75C34F1C-4F17-46A7-88BF-706B5EAD0745}.Release|Win32.ActiveCfg = Release|Win32
+		{75C34F1C-4F17-46A7-88BF-706B5EAD0745}.Release|Win32.Build.0 = Release|Win32
+		{32E50D77-EF06-4400-8BF1-58DAB5ACC1ED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32E50D77-EF06-4400-8BF1-58DAB5ACC1ED}.Debug|Win32.Build.0 = Debug|Win32
+		{32E50D77-EF06-4400-8BF1-58DAB5ACC1ED}.Release|Win32.ActiveCfg = Release|Win32
+		{32E50D77-EF06-4400-8BF1-58DAB5ACC1ED}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
