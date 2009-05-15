@@ -44,7 +44,7 @@ number of cores x 2 and wait until all are completed before exiting
 the batch file.
 
 On a dual core processor, your task manager should look something
-like what is shown in mptools.png.
+like what is shown in [http://picasaweb.google.com/lysine/Mptoolkit#5335839507796497602 mptools.png].
 
 5 cmd.exe's running - 1 for the batch process, 4 for execution
 
