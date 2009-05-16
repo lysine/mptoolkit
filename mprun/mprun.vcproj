@@ -212,7 +212,7 @@
 			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
 			>
 			<File
-				RelativePath="main.cpp"
+				RelativePath="mprun.cpp"
 				>
 			</File>
 			<File
