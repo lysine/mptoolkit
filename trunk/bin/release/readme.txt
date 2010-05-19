@@ -13,7 +13,7 @@ mpstart
 -------
 Checks to see how many instances of mprun are running by looking
 for .pid files in the same directory as the executable. If it
-is greater than or equal to number of cores * 2, then it will
+is greater than or equal to number of logical cores, then it will
 wait until one of the instances of mprun finishes, effectively
 pausing the execution flow of your batch file. It calls mprun
 as a detached processto actually perform your command when it 

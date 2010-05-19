@@ -10,20 +10,17 @@ using namespace std;
 int main(int argc, char *argv[])
 {
 	QCoreApplication a(argc, argv);
-	consoleOut("mprun 0.1");
+	consoleOut("mprun 0.2");
 
 	QStringList arguments = a.arguments();
 
 	if (arguments.count() < 2){
 		consoleOut("Insufficient arguments. Need at least 1.");
 	} else {
-		// Get process ID and write it out
-		QString appPath = a.applicationDirPath();
-		QString fileName = appPath + QString("/%1.pid").arg(a.applicationPid());
-		writeText(fileName,"");
 		// do work.
 		QProcess process;
-		arguments.takeFirst();
+		arguments.takeFirst(); // removes arg 0
+		QString pid = arguments.takeFirst(); // takes the PID
 		arguments.prepend("/C");
 		consoleOut(arguments.join("|"));
 		process.start("cmd.exe",arguments);
@@ -35,6 +32,9 @@ int main(int argc, char *argv[])
 			}
 		}
 		// delete pid
+		QString appPath = a.applicationDirPath();
+		QString fileName = appPath + QString("/") + pid + QString(".pid");
+
 		QFile file(fileName);
 		file.remove();
 	}
