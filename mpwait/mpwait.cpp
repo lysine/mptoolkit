@@ -10,7 +10,7 @@ using namespace mpCommon;
 int main(int argc, char *argv[])
 {
 	QCoreApplication a(argc, argv);
-	consoleOut("mpwait 0.1");
+	consoleOut("mpwait 0.2");
 
 	// wait until all pid's disappear
 	QString appPath = a.applicationDirPath();
