@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	QStringList infoList = dir.entryList(QStringList()<<"*pid");
 	consoleDebug(infoList.join("|"));
 	// wait until there are no more pid's
-	while(infoList.count() > 1){
+	while(infoList.count() > 0){
 		QTest::qSleep(8);
 		infoList = dir.entryList(QStringList()<<"*pid");
 	}
